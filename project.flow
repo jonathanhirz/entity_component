@@ -1,0 +1,26 @@
+{
+  project : {
+    name : 'entity_component',
+    version : '0.0.1',
+    author : 'Jonathan Hirz',
+
+    app : {
+      name : 'entity_component',
+      package : 'com.jonathanhirz.entity_component'
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+      },
+      hxcpp : {
+        flags : ['-nocolor']
+      }
+    },
+
+    files : {
+      config : 'config.json',
+      assets : 'assets/'
+    }
+  }
+}
